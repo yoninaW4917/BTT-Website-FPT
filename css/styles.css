@@ -24,14 +24,14 @@ body {
 }
 
 a {
-  color: #8fcaab;
+  color: #efc95f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none;
-  color: #8fcaab;
+  color: #efc95f;
 }
 a:focus, a:active {
   outline: none;
@@ -65,17 +65,17 @@ h1, h2, h3, h4, h5, h6 {
 * ======================================================= */
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #8fcaab;
+  background: #efc95f;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #8fcaab;
+  background: #efc95f;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #8fcaab;
+  background: #efc95f;
 }
 
 .btn {
@@ -86,14 +86,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #8fcaab;
+  background: #efc95f;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #8fcaab;
+  background: #efc95f;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -15px;
   width: 20px;
   height: 3px;
-  background: #8fcaab;
+  background: #efc95f;
 }
 
 /* =======================================================
@@ -158,7 +158,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #8fcaab;
+  background: #efc95f;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -194,7 +194,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   top: -5px;
   right: -7px;
-  background: #8fcaab;
+  background: #efc95f;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -675,7 +675,7 @@ header #fh5co-main-nav > ul li:first-child {
 }
 
 .fh5co-table2-color-3 {
-  background: #17E7A4 !important;
+  background: #e79717 !important;
 }
 
 .fh5co-table2-color-4 {
