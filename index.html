@@ -10,9 +10,28 @@
 	<meta name="keywords" content="html5, css3, mobile first, responsive" />
 	<meta name="author" content="" />
 
+  
 
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> -->
+	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Owl Carousel -->
@@ -21,26 +40,45 @@
 
 	<link rel="stylesheet" href="css/styles.css">
 
-	<!-- HTML Part 2-->	
-	
-	</div>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 	</head>
 	<body>
 	<header>
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo">MY WEBSITE</a>
+				<a class="fh5co-logo" href="index.html">Graph Hub</a>
 			</div>
+			<nav id="fh5co-main-nav" role="navigation">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="work.html">Projects</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
 	
-	
+	<!-- HTML Part 2-->
+	<div class="owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow animate-box" data-animate-effect="fadeIn">
+		<div class="item"><a href="images/featured-1.jpg" class="image-popup"><img src="images/featured-1.jpg" alt="image"></a></div>
+		<div class="item"><a href="images/featured-2.jpg" class="image-popup"><img src="images/featured-2.jpg" alt="image"></a></div>
+	</div>
+
 	<div id="fh5co-intro-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2>Welcome to my website</h2>
-					<p>I can build a website <a href="http://google.com">google.com</a></p>
+					<h2>Welcome to white deer studio's website</h2>
+					<p>we can help you with build a website <a href="http://testwebsite.com">white_deer.com</a></p>
 				</div>
 			</div>
 		</div>
@@ -48,22 +86,22 @@
 	<div id="fh5co-common-section">
 		<div class="container">
 			<div class="heading-section text-center">
-				<h2>Who I am</h2>
+				<h2>Who we are</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-md-6 col-sm-6 services-num services-num-text-right">
 						<span class="number-holder">01</span>
 						<div class="desc">
-							<h3>I make websites </h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h3>We create websites </h3>
+							<p>Take a look at our projects/services and contact us if you need help to create websites</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 services-num">
 						<span class="number-holder">02</span>
 						<div class="desc">
-							<h3>I sleep</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h3>We develope games</h3>
+							<p>Games are fun and we can design and develope games too</p>
 						
 						</div>
 					</div>
@@ -79,24 +117,78 @@
 					<div class="col-md-6 col-sm-6 services-num services-num-text-right">
 						<span class="number-holder">03</span>
 						<div class="desc">
-							<h3>I eat</h3>
-							<p>DeveUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							<h3>We do 3D modeling </h3>
+							<p>Developing a mathematical coordinate-based representation of any surface of an object in three dimensions in a simulated 3D space.</p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 services-num">
 						<span class="number-holder">04</span>
 						<div class="desc">
-							<h3>I breath! </h3>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<h3>We have fun! </h3>
+							<p>Never be too serious with our studio! Everyone is helpful and trying to help in here. <a href="contact.html" > Contact </a> us if you have anyquestions! </p>
 						
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><!-- end fh5co-common-section -->
 	
-
+	<!-- HTML PART3 -->
+	<div id="fh5co-featured-work-section">
+		<div class="container-fluid">
+			<div class="heading-section text-center">
+				<h2>Our Recent Projects</h2>
+				<p>Check out the <a href="work.html" > projects </a> page!!!</p>
+			</div>
+			<div class="owl-carousel owl-carousel2">
+				<div class="item">
+					<!-- <a href="#" class="image-popup"> -->
+					<img src="images/portfolio_pic1.jpg" alt="image">
+					<a href="#" class="pop-up-overlay text-center">
+						<div class="desc">
+							<h3>Camera</h3>
+							<span>Video</span>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<img src="images/portfolio_pic2.jpg" alt="image">
+					<a href="#" class="pop-up-overlay pop-up-overlay-color-2 text-center">
+						<div class="desc">
+							<h3>Workstation</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<!-- <a href="#" class="image-popup"> -->
+					<img src="images/portfolio_pic3.jpg" alt="image">
+					<!-- </a> -->
+					<a href="#" class="pop-up-overlay pop-up-overlay-color-3 text-center">
+						<div class="desc">
+							<h3>Mobile Phone</h3>
+							<span>Web</span>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<!-- <a href="#" class="image-popup"> -->
+					<img src="images/portfolio_pic4.jpg" alt="image">
+					<!-- </a> -->
+					<a href="#" class="pop-up-overlay pop-up-overlay-color-4 text-center">
+						<div class="desc">
+							<h3>Camera Lens</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				
+					</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- end fh5co-featured-work-section -->
 	
 	<!-- HTML PART4 -->
 	
@@ -105,8 +197,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
-						<p>Copyright 2023 <a href="#">YONINA</i></a>. All Rights Reserved. (FOR REAL!!! YAY) </p>
-
+						<p>Copyright 2021 Mywebsite <a href="#">YONINA ^-^</a>. All Rights Reserved. <br>Made with <i class="icon-heart3 love"></i> <a href="http://myname.com/" target="_blank">Sam Q.</a>  </p>
+						<p class="fh5co-social-icons">
+							<a href="#"><i class="icon-twitter-with-circle"></i></a>
+							<a href="#"><i class="icon-facebook-with-circle"></i></a>
+							<a href="#"><i class="icon-instagram-with-circle"></i></a>
 						</p>
 					</div>
 				</div>
@@ -114,6 +209,21 @@
 		</div>
 	</footer>
 
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
 	</body>
 </html>
