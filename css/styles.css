@@ -24,14 +24,14 @@ body {
 }
 
 a {
-  color: #efc95f;
+  color: #F68323;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none;
-  color: #efc95f;
+  color: #F68323;
 }
 a:focus, a:active {
   outline: none;
@@ -57,6 +57,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; 
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 /* =======================================================
 *
 * 	Template Style 
@@ -65,17 +78,17 @@ h1, h2, h3, h4, h5, h6 {
 * ======================================================= */
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #efc95f;
+  background: #F68323;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #efc95f;
+  background: #F68323;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #efc95f;
+  background: #F68323;
 }
 
 .btn {
@@ -86,14 +99,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #efc95f;
+  background: #F68323;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #efc95f;
+  background: #F68323;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -122,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -15px;
   width: 20px;
   height: 3px;
-  background: #efc95f;
+  background: #F68323;
 }
 
 /* =======================================================
@@ -158,7 +171,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #efc95f;
+  background: #F68323;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -194,7 +207,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   top: -5px;
   right: -7px;
-  background: #efc95f;
+  background: #F68323;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -406,20 +419,20 @@ header #fh5co-main-nav > ul li:first-child {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(240, 56, 97, 0.8);
+  background: #F68323;
   opacity: 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .item .pop-up-overlay.pop-up-overlay-color-2 {
-  background: rgba(248, 125, 9, 0.8) !important;
+  background: #F68323 !important;
 }
 .item .pop-up-overlay.pop-up-overlay-color-3 {
-  background: rgba(23, 231, 164, 0.8) !important;
+  background: #F68323 !important;
 }
 .item .pop-up-overlay.pop-up-overlay-color-4 {
-  background: rgba(249, 197, 53, 0.8) !important;
+  background: #F68323 !important;
 }
 .item .pop-up-overlay .desc {
   position: absolute;
@@ -737,7 +750,7 @@ header #fh5co-main-nav > ul li:first-child {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(240, 56, 97, 0.9);
+  background: #F68323;
   opacity: 0;
 }
 .fh5co-grid-work .work-holder .inner-overlay i {
@@ -750,19 +763,19 @@ header #fh5co-main-nav > ul li:first-child {
   font-size: 30px;
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay-2 {
-  background: rgba(248, 125, 9, 0.9);
+  background: #F68323;
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay-3 {
-  background: rgba(23, 231, 164, 0.9);
+  background: #F68323;
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(249, 197, 53, 0.9);
+  background: #F68323;
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(81, 218, 207, 0.9);
+  background: #F68323;
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay-5 {
-  background: rgba(255, 118, 118, 0.9);
+  background: #F68323;
 }
 .fh5co-grid-work .desc h3 {
   font-size: 20px;
@@ -856,10 +869,10 @@ header #fh5co-main-nav > ul li:first-child {
   top: .3em;
   left: 0;
   font-size: 22px;
-  color: #F03861;
+  color: #F68323;
 }
 .contact-info li a {
-  color: #F03861;
+  color: #F68323;
 }
 /* =======================================================
 
